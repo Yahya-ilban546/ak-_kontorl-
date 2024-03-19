@@ -10,16 +10,16 @@ int seçim = Convert.ToInt32(Console.ReadLine());
 switch (seçim)
 {
     case 1:
-        Console.WriteLine(s1 + s2);
+        Console.WriteLine("birinci ve ikinci sayının toplamı:"s1 + s2);
         break;
     case 2:
-        Console.WriteLine(s1 - s2);
+        Console.WriteLine("birinci ve ikinci sayının çıkarımı:"s1 - s2);
         break;
     case 3:
-        Console.WriteLine(s1 * s2);
+        Console.WriteLine("birinci ve ikinci sayının çarpımı:"s1 * s2);
         break;
     case 4:
-        Console.WriteLine(s1 / s2);
+        Console.WriteLine("birinci ve ikinci sayının bölümü:"s1 / s2);
         break;
 
 }
